@@ -227,7 +227,7 @@ class PHPMailer {
    * Sets SMTP class debugging on or off.
    * @var bool
    */
-  public $SMTPDebug     = true;
+  public $SMTPDebug     = false;
 
   /**
    * Prevents the SMTP connection from being closed after each mail
